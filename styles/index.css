@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#__next {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
+
+.account__container {
+  @apply relative h-full w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover;
+}

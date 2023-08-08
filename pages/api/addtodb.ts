@@ -1,0 +1,110 @@
+const movies = [
+  {
+    title: "Thor Love and Thunder",
+    description:
+      "Thor: Love and Thunder follows Thor as he attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Foster to stop Gorr the God Butcher from eliminating all gods.",
+    videoUrl:
+      "http://4.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/11578/Thor_Love_and_Thunder_2022_ORG_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl:
+      "https://images.thedirect.com/media/article_full/thor-new-posters.jpg",
+    genre: "Action",
+    duration: "",
+  },
+  {
+    title: "Venom 2",
+    description:
+      "Eddie Brock is still struggling to coexist with the shape-shifting extraterrestrial Venom. When deranged serial killer Cletus Kasady also becomes host to an alien symbiote, Brock and Venom must put aside their differences to stop his reign of terror.",
+    videoUrl:
+      "http://8.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/9726/Venom_2_Let_There_Be_Carnage_2021_ORG_Bluday_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl:
+      "https://sportshub.cbsistatic.com/i/2021/09/07/16b39672-7470-4389-9963-3a2a8278003d/venom-let-there-be-carnage-poster-1279326.jpg",
+    genre: "Action",
+    duration: " 01 hrs 37 mins",
+  },
+  {
+    title: "Zack Snyders Justice League",
+    description:
+      "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+    videoUrl:
+      "http://1.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/8523/Zack_Snyders_Justice_League_2021_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl:
+      "https://media.gq-magazine.co.uk/photos/604a4bcdb72c6dcbd4f9b69f/16:9/w_2560%2Cc_limit/11032020_K_HP.jpg",
+    genre: "Action",
+    duration: "04 hrs 01 mins",
+  },
+  {
+    title: "Venom",
+    description:
+      " It stars Tom Hardy as Eddie Brock and Venom alongside Michelle Williams, Riz Ahmed, Scott Haze, and Reid Scott. In the film, struggling journalist Eddie gains superpowers after becoming the host of an alien symbiote, Venom, whose species plans to invade Earth.",
+    videoUrl:
+      "http://9.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/6021/Venom_2018_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl: "https://wallpapercave.com/wp/wp8815247.jpg",
+    genre: "Action",
+    duration: "04 hrs 01 mins",
+  },
+  {
+    title: "Ant Man and the Wasp",
+    description:
+      "Scott Lang is grappling with the consequences of his choices as both a superhero and a father. Approached by Hope van Dyne and Dr. Hank Pym, Lang must once again don the Ant-Man suit and fight alongside the Wasp. The urgent mission soon leads to secret revelations from the past as the dynamic duo finds itself in an epic battle against a powerful new enemy.",
+    videoUrl:
+      "http://1.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/5865/Ant-Man_and_the_Wasp_2018_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl:
+      "https://www.theactionpixel.com/wp-content/uploads/2018/04/antmanwaspBanner.jpg",
+    genre: "Action",
+    duration: "02 hrs 07 mins",
+  },
+  {
+    title: "Avengers Infinity War",
+    description:
+      "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.",
+    videoUrl:
+      "http://8.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/5584/Avengers_Infinity_War_2018_Dub_in_Hindi_Bluray__hd-By-FilmyHit.mp4",
+    thumbnailUrl:
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/12/Avengers-Infinity-War-Poster.jpg",
+    genre: "Action",
+    duration: "02 hrs 29 mins",
+  },
+  {
+    title: "Avengers 2012",
+    description:
+      "When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's dream team are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).",
+    videoUrl:
+      "http://3.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/5450/The_Avengers_2012_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl: "https://wallpaperaccess.com/full/311268.jpg",
+    genre: "Action",
+    duration: "02 hrs 22 mins",
+  },
+  {
+    title: "Thor the Dark World",
+    description:
+      "In ancient times, the gods of Asgard fought and won a war against an evil race known as the Dark Elves. The survivors were neutralized, and their ultimate weapon -- the Aether -- was buried in a secret location. Hundreds of years later, Jane Foster (Natalie Portman) finds the Aether and becomes its host, forcing Thor (Chris Hemsworth) to bring her to Asgard before Dark Elf Malekith (Christopher Eccleston) captures her and uses the weapon to destroy the Nine Realms -- including Earth.",
+    videoUrl:
+      "http://2.fastdownload.world/movies/download/Hollywood-Dubbed-in-Hindi-Original-DvD-Rip/5444/Thor_The_Dark_World_2013_Dub_in_Hindi__hd-By-FilmyHit.mp4",
+    thumbnailUrl: "https://wallpaperaccess.com/full/735825.jpg",
+    genre: "Action",
+    duration: "02 hrs 13 mins",
+  },
+];
+
+import { NextApiRequest, NextApiResponse } from "next";
+import prisma from "@utils/prismadb";
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+  if (req.method !== "GET") return res.status(405).end("bad requrest");
+  try {
+    const movie = await prisma.movie.create({
+      data: {
+        title: movies[7].title,
+        description: movies[7].description,
+        duration: movies[7].duration,
+        genre: movies[7].genre,
+        thumbnailUrl: movies[7].thumbnailUrl,
+        videoUrl: movies[7].videoUrl,
+      },
+    });
+    res.status(200).json(movie);
+  } catch (error: any) {
+    console.log(error);
+    res.status(400).end(error.message);
+  }
+};
+export default handler;
