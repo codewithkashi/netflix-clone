@@ -21,7 +21,7 @@ const MovieCard = ({ data }: MovieCardProps) => {
         width={300}
         height={200}
       />
-      <div className="opacity-0 absolute top-0 transition-all duration-200 z-10 invisible sm:visible delay-100 w-full scale-0 group-hover:scale-110 group-hover:translate-x-[20px] group-hover:opacity-100">
+      <div className="opacity-0 absolute top-0 transition-all duration-200 z-10 delay-100 w-full scale-0 group-hover:scale-110 group-hover:translate-x-[20px] group-hover:opacity-100">
         <Image
           src={data?.thumbnailUrl}
           alt="thumbnail"
